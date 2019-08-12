@@ -1,2 +1,3 @@
-# gmaps-didChange-issue
+# GoogleMaps iOS SDK didChange issue
+
 Reproducing GoogleMaps iOS SDK issue with didChange callback
