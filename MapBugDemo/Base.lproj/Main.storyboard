@@ -38,7 +38,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" red="0.4239527702" green="0.77821797420000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ii8-jk-Q8T" customClass="AnnotationsContainerView" customModule="MapBugDemo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ii8-jk-Q8T" customClass="NoAutolayoutView" customModule="MapBugDemo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -46,7 +46,7 @@
                                 <rect key="frame" x="107" y="714" width="200" height="50"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="ZUd-xc-Qtj"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="ZUd-xc-Qtj"/>
                                     <constraint firstAttribute="height" constant="50" id="ced-4T-rLX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="16"/>
@@ -89,8 +89,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Demo" id="5pI-VY-Ad4"/>
                     <connections>
-                        <outlet property="annotationsContainerView" destination="Ii8-jk-Q8T" id="NSc-2c-hdT"/>
                         <outlet property="mapView" destination="k8y-Cl-MhS" id="Wtp-ke-djf"/>
+                        <outlet property="noAutolayoutView" destination="Ii8-jk-Q8T" id="70d-wL-IjW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

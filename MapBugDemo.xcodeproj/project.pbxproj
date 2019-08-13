@@ -32,7 +32,6 @@
 		C7241E8122AF066B00FD78B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7241E8022AF066B00FD78B3 /* SystemConfiguration.framework */; };
 		C7241E8322AF067100FD78B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7241E8222AF067100FD78B3 /* UIKit.framework */; };
 		C7241E8522AF0D6A00FD78B3 /* AnnotationsContaninerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7241E8422AF0D6A00FD78B3 /* AnnotationsContaninerView.swift */; };
-		C7241E8722AF142600FD78B3 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7241E8622AF142600FD78B3 /* Annotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +62,6 @@
 		C7241E8022AF066B00FD78B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C7241E8222AF067100FD78B3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7241E8422AF0D6A00FD78B3 /* AnnotationsContaninerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationsContaninerView.swift; sourceTree = "<group>"; };
-		C7241E8622AF142600FD78B3 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +116,6 @@
 				C7241E4A22AF056200FD78B3 /* AppDelegate.swift */,
 				C7241E4C22AF056200FD78B3 /* ViewController.swift */,
 				C7241E8422AF0D6A00FD78B3 /* AnnotationsContaninerView.swift */,
-				C7241E8622AF142600FD78B3 /* Annotation.swift */,
 				C7241E4E22AF056200FD78B3 /* Main.storyboard */,
 				C7241E5122AF056400FD78B3 /* Assets.xcassets */,
 				C7241E5322AF056400FD78B3 /* LaunchScreen.storyboard */,
@@ -235,7 +232,6 @@
 			files = (
 				C7241E4D22AF056200FD78B3 /* ViewController.swift in Sources */,
 				C7241E8522AF0D6A00FD78B3 /* AnnotationsContaninerView.swift in Sources */,
-				C7241E8722AF142600FD78B3 /* Annotation.swift in Sources */,
 				C7241E4B22AF056200FD78B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
